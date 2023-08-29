@@ -1,0 +1,13 @@
+print("Accediendo a los elementos de nuestra lista.\n")
+marcas = ["Apple","samsung","Xiaomi","Huawei"]
+print(f"Lista completa: {marcas}\n")
+print("¿Cuántos elementos tiene la lista?\n"f"Tiene: {len(marcas)} elementos.\n"f"marcas[:]: {marcas[:]}\n")
+print(f"marcas[1]: {marcas[1]}\n")
+print(f"marcas[3]: {marcas[3]}\n")
+print(f"marcas[-1]: {marcas[-1]}\n")
+print(f"marcas[-3]: {marcas[-3]}\n")
+print(f"marcas[1:3]: {marcas[1:3]}\n")
+print(f"marcas[:2]: {marcas[:2]}\n")
+print(f"marcas[1:]: {marcas[1:]}\n")
+print(f"marcas[:]: {marcas[:]}\n")
+print(f"Generando error - marcas[4] o marcas superior a nuestro len(marcas): IndexError: list index out of range ")
